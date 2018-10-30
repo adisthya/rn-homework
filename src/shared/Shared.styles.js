@@ -14,4 +14,35 @@ export default sharedStyles = StyleSheet.create({
     padding: 20,
     fontWeight: 'bold',
   },
+  prosesContainer: {
+    flex: 1,
+    justifyContent: 'center',
+    alignItems: 'center',
+    margin: 10
+  },
+  listItems: {
+    flex: 1,
+    justifyContent: 'flex-start',
+    flexDirection: 'row',
+    marginTop: 5,
+    marginBottom: 5
+  },
+  listItemImage: {
+    height: 48,
+    width: 48,
+    margin: 0,
+    marginRight: 10
+  },
+  textJudul: {
+    fontSize: 20,
+    textAlign: 'center',
+    // margin: 10,
+  },
+  textCompany: {
+    fontSize: 14,
+    marginBottom: 5
+  },
+  textAddress: {
+    color: '#333333'
+  },
 })

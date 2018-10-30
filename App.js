@@ -7,12 +7,16 @@
  */
 
 import React, {Component} from 'react';
+import { Provider } from 'react-redux';
 import Dashboard from './src/pages/Dashboard';
+import store from './src/redux/storage';
 
 export default class App extends Component {
   render() {
     return (
-      <Dashboard />
+      <Provider store={store}>
+        <Dashboard />
+      </Provider>
     );
   }
 }
